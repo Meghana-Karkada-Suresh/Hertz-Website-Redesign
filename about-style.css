@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,300,400,500,600,700,800,900);
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  body {
+    background-color: #fffffa;
+    ;
+  }
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fffffa;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    align-items: left;
+    padding: 5%;
+
+    margin:5%;
+  }
+
+
+
+.about-container h1 {
+  font-family: raleway;
+  color:rgb(24, 24, 24);
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 5%;
+  align-items: center;
+  text-align: center;
+
+}
+
+.about-container p{
+    font-family: raleway;
+    color:rgb(24, 24, 24);
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+
+  }
+
+.about-container img {
+    padding-bottom: #fffffa 20px;
+    padding-bottom: 30px;
+
+  }
+  
+
+.go-to-vehicles {
+  text-align: center;
+  padding: #fffffa 50px;
+  padding-bottom: 200px;
+  font-family:raleway;
+  color:rgb(24, 24, 24);
+}
+
+.go-to-vehicles h1{
+  font-size:32px;
+}
+
+
+.go-to-vehicles p{
+  font-size:16px;
+  padding: 20px 400px 60px 300px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.go-to-vehicles h3{
+  font-size:20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+  .about-page-link {
+    font-size:20px; 
+    font-family:raleway;
+    color:rgb(24, 24, 24);
+    text-decoration: none;
+    background-color: #FFCC00;
+    padding: 10px 20px;
+    border: none;
+  }
+
+  .about-page-link:link {
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+  }
+  
+  .about-page-link:visited {
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+  }
+
+  .about-page-link:hover{
+    background-color: rgb(24, 24, 24);
+    color: #FFCC00;
+    text-decoration: none;
+  }

@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,300,400,500,600,700,800,900);
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+  }
+  
+
+  .rent-form {
+    font-family: raleway;
+    margin: 4% 10%;
+    border: 10px solid #FFCC00;
+    padding: 20px;
+    background-color: #fffffa;
+    text-align: center;
+    
+  }
+
+  .rent-form h1 {
+    font-size: 32px;
+    padding: 10px;
+    font-weight: 700;
+  }
+
+  .rent-form div {
+    padding: 5px;
+  }
+  
+  .rent-form input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #fffffa;
+    border-radius: 4px;
+    font-family: raleway;
+    color:#4d4d4d;
+    margin-right: 50px;
+  }
+
+  .rent-form input[type=date], input[type=password] {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #fffffa;
+    border-radius: 4px;
+    font-family: raleway;
+    color:#4d4d4d;
+    margin-right: 50px;
+  }
+
+  
+  .rent-form input[type=time] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #fffffa;
+    border-radius: 4px;
+    font-family: raleway;
+    color:#4d4d4d;
+    margin-right: 50px;
+  }
+
+
+  .rent-form select {
+    width: 20%;
+    padding:12px 10px;
+    border: 3px solid #FFCC00;
+    background-color: #fffffa;
+    border-radius: 2px;
+    background-color: fffffa;
+  }
+
+  .rent-form input[type=submit] {
+    width: 20%;
+    background-color: #FFCC00;
+    color: rgb(24, 24, 24);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: raleway;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  

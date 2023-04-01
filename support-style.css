@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,300,400,500,600,700,800,900);
+
+body {
+    color: rgb(24,24,24);
+    background: #fffffa;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .faq-header{
+    font-size: 50px;
+    border-bottom: 1px dotted #FFCC00;
+    padding: 24px;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .faq-content {
+    padding: 0px 200px 100px 200px;
+  }
+  
+  .faq-question {
+    padding: 20px 0;
+    border-bottom: 1px dotted #FFCC00;
+  }
+  
+  .panel-title {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 10px 10px 0 48px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .panel-content {
+    font-size: 16px;
+    padding: 0px 14px;
+    margin: 0 40px;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+  }
+  
+  .panel:checked ~ .panel-content{
+    height: auto;
+    opacity: 1;
+    padding: 14px;
+    padding-top: 30px;
+  }
+  
+  .plus {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+    z-index: 5;
+    font-size: 42px;
+    line-height: 100%;
+  }
+  
+  
+  .panel {
+    display: none;
+  }
+
+  table {
+    border: 3px solid #FFCC00;
+    text-align: center;
+    width: 70%;
+    border-collapse: collapse;
+    margin:20px 0 20px 0;
+  }
+
+  td, th {
+    border: 1px solid #FFCC00;
+    text-align: center;
+    width: 70%;
+    border-collapse: collapse;
+    padding: 5px;
+  }

@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,300,400,500,600,700,800,900);
+
+.sign-in-background 
+{
+  font-family:raleway; 
+  background: linear-gradient(to right, #155799, #159957); 
+  color:fffffa;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("images/pinakeen-bhatt-IlwFSTrK3Cg-unsplash\ \(1\).jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+form{
+  position: absolute;
+  top: 12%;
+  left: 65%;
+  width:500px;
+  margin: auto;
+  color: rgb(24,24,24);
+  background-color: #fffffa ;
+  padding: 20px 25px;
+}
+
+.headings-container{
+  text-align: center;
+}
+
+
+
+.headings-container h1{
+  color: rgb(24,24,24);
+  font-size: 50px;
+  font-weight: 700;
+}
+
+
+.main-container{
+  padding: 16px;
+}
+
+
+.main-container input[type=text], .main-container input[type=password]{
+    width: 100%;
+    margin: 10px ;
+    padding: 15px 18px;
+    box-sizing: border-box;
+    font-family: raleway;
+  }
+
+
+
+button {
+    background-color: #FFCC00;
+    color: rgb(24,24,24);
+    padding: 14px 20px;
+    margin: 20px 0;
+    margin-top: 29px;
+    width: 100%;
+    font-size: 18px;
+    font-family: raleway;
+    border: none;
+  }
+
+button:hover {
+  background-color: rgb(24,24,24);
+  color: #FFCC00;
+  cursor: pointer;
+}
+
+
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-container a{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+span.forgotpsd a {
+    float: right;
+    color: rgb(24,24,24);
+    padding-top: 16px;
+  }
+
+.forgotpsd a{
+    color: rgb(74, 146, 235);
+  }
+  
+.forgotpsd a:link{
+    text-decoration: none;
+  }
+
+  .register{
+    color: rgb(24,24,24);
+    text-align: center;
+  }
+  
+  .register a{
+    color: rgb(74, 146, 235);
+  }
+  
+  .register a:link{
+    text-decoration: none;
+  }

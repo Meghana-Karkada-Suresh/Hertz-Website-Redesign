@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,300,400,500,600,700,800,900);
+
+.vehicle-heading {
+    font-family: raleway;
+    font-size:50px;
+    font-weight:800;
+    text-align: center;
+    padding: 30px;
+    padding-top: 50px;
+    background-color:#fffffa;
+}
+
+.vehicles-text {
+    font-family: raleway;
+    font-size: 16px;
+    padding: 30px 200px;
+    background-color: #fffffa;
+}
+
+.gallery-text {
+    font-family: raleway;
+    font-size: 14px;
+    font-weight:normal;
+}
+
+ul.gallery-text li {
+    padding:5px;
+}
+
+
+.features-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: top;
+    justify-items: center;
+    background-color:#fffffa;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+
+    
+  div.features {
+    margin: 5px;
+    width: 150px;
+    font-family: raleway;
+    background-color: #fffffa;
+    font-weight: 500;
+  }
+  
+
+  div.features img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  
+  div.features-desc {
+    padding: 50px;
+    text-align: center;
+  }
